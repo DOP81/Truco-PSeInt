@@ -1,0 +1,27 @@
+MATERIA: Laboratorio
+COMISION: 1604
+GRUPO N° 1: CHRYSTAN, German. PALUDI, Diego.
+PROYECTO FINAL: TRUCO ARGENTINO
+
+
+1. IDEA INICIAL
+El proyecto consiste en el desarrollo de un software de consola que emula el tradicional juego de naipes "Truco Argentino". 
+El sistema simulará una partida de un solo nivel bajo la modalidad de un jugador contra un oponente controlado por la computadora (PC). 
+La interacción principal se gestionará a través de un menú de opciones secuencial, permitiendo al usuario tomar decisiones en cada ronda y aplicar la lógica del juego.
+
+2. OBJETIVOS
+- Objetivo General: 
+  Desarrollar un programa funcional que integre los conceptos de lógica algorítmica, estructuras de datos y control de flujo vistos en la cursada, materializados en las reglas del Truco.
+
+- Objetivos Específicos:
+  * Implementar el mazo, la jerarquía de las cartas y la resolución lógica de cada mano.
+  * Diseñar un menú interactivo que despliegue las opciones permitidas según el estado del turno (jugar primera, segunda o tercera carta, cantar "Envido", cantar "Truco").
+  * Programar una lógica para que la computadora analice sus cartas, decida qué tirar y responda a los cantos del jugador.
+  * Desarrollar el sistema de contabilidad de puntos, gestionando la suma de tantos de forma dinámica.
+
+3. ALCANCE DEL PROYECTO
+Para asegurar la viabilidad y entrega en tiempo y forma, el proyecto se delimitará a las siguientes características:
+- Modalidad de juego: Estrictamente 1 contra 1 (Jugador vs. PC).
+- Condición de victoria: Partida corta a 15 puntos. El primer participante en alcanzar o superar esta cifra será el ganador definitivo.
+- Interfaz: Aplicación de consola (modo texto). La información se mostrará por pantalla y el usuario ingresará sus acciones mediante teclado numérico o caracteres.
+- Funcionalidades de reglas: Se limitará a los cantos esenciales requeridos (Envido y Truco básico). El cálculo de los tantos del envido se realizará automáticamente evaluando los palos de las tres cartas repartidas a cada jugador.
